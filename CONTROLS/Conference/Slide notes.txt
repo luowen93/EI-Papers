@@ -1,0 +1,92 @@
+Aerotech Presentation
+
+Slide 2:
+
+The new tensioning system that was developed was mainly designed to push both speed and reliability of the our H16 machines with focus on Spar builds.
+
+Slide 3:
+ 
+Short courses are characterized by high acceleration, and high number off add cycles
+
+Long courses are characterized by high acceleration, high stop speed
+
+Slide 4:
+
+Feed motor is doing all the positive mechanical work to pull the tow out.
+
+The pneumatic creel has a braking mechanism to control tow leaving the spool. Depending on the diameter the tuning parameters are changed.
+
+In essence the material is only pulled out of the machine and therefore all forces are transferred through the material itself. The reason why a pneumatic creel was developed in the past is to get a modular head that can be automatically detached and swapped out.
+
+Slide 5:
+Twisting and mechanical damage can happen if there is too low or too high tension
+
+Slide 6:
+The main goals of the system is to enhance these key performance metrics
+
+Slide 7:
+Our solution was a servo tensioning system, in order to decentralize control and increase bandwidth and consistency of the dancer response functions. Motors also reduce the load at the feedroller allowing for error detection.
+
+Slide 8:
+Here are two diagrams of the pneumatic and servo systems for comparison
+
+Slide 9:
+Decentralize control allows for simplified code and debugging. The motors are operated as pure output feedback devices.
+
+Slide 10:
+We eliminate hard to manufacture pneumatic brake assemblies and get must more responsive control.
+
+Slide 11:
+A core part of building the control loop is to know the diameter of the spools for surface speed calculations. Thus, we tested multiple different options and found that ultrasonic sensors worked well when compared with laser solutions.
+
+Slide 12:
+We desired a simple pure feedback controller that could optimize the torque use. The inertia ratio was very large, inertia varies a lot and the dancer stroke must be utilized efficiently.
+
+Slide 13:
+Diameters also allowed us to estimate torque requirements of the system via simulation with various control loops before building. Iterating many different control loop designs in this stage gave us the best chance for success. Frequency response was done to verify the estimated inertia and torque requirements.
+
+
+Slide 14:
+Here are the first two test benches we made, the first was a stationary bench, and the second was put on a robot for layup test.
+
+Slide 15:
+The setup with the test bench running on a robot is shown. For simplicity, we performed layups on a flat tool.
+
+Slide 16:
+Running the same velocity profiles and testing out max speeds, we found very consistent and predictable tension profiles.
+
+Slide 17:
+Although not a direct comparison of running the same program, the real results showed a much higher controllability, and furthermore gave us the ability to predict tensioner displacements over time. The simulation was very close to reality.
+
+Slide 18:
+A full scale 16 lane prototype was then made based on the previous prototype. Again tensioner performance was extremely reliable and predictable.
+
+Slide 19:
+An example layup shown
+
+Slide 20:
+Back to our goals
+
+Slide 21:
+Greater than 380% increase in reliability, no observed tension failures during testing
+
+Slide 22:
+Add speed and cut speed increase dramatically by 88%
+
+Slide 23:
+Top speed increased by 17% and maintains reliability
+
+Slide 24:
+Tension be adjusted by different spring elements, but is nominally reduced around 70%
+
+Slided 25:
+Higher productivity 
+Less setup time due to debugging pneumatic elements
+Real time inspection to validate placement
+Real time error inspection to reduce rework
+
+
+
+
+
+
